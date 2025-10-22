@@ -1,0 +1,610 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "Clothes",
+            "img": "https://i.ibb.co.com/xSK7dv8h/c-3.png",
+            "totalQuantity": 80
+        },
+        {
+            "id": 2,
+            "name": "Perfium",
+            "img": "https://i.ibb.co.com/RkCWD9vK/c-9.png",
+            "totalQuantity": 95
+        },
+        {
+            "id": 3,
+            "name": "Sunglass",
+            "img": "https://i.ibb.co.com/XxLHpRyK/c-4.png",
+            "totalQuantity": 70
+        },
+        {
+            "id": 4,
+            "name": "Hat",
+            "img": "https://i.ibb.co.com/TDZcYQY5/c-5.png",
+            "totalQuantity": 50
+        },
+        {
+            "id": 5,
+            "name": "Shorts",
+            "img": "https://i.ibb.co.com/39pq4C05/c-6.png",
+            "totalQuantity": 40
+        },
+        {
+            "id": 6,
+            "name": "Jackets",
+            "img": "https://i.ibb.co.com/mVdmV53f/c-7.png",
+            "totalQuantity": 60
+        },
+        {
+            "id": 7,
+            "name": "Shirts",
+            "img": "https://i.ibb.co.com/KzXyKS8R/c-1.png",
+            "totalQuantity": 45
+        }
+    ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Men's Cotton Casual Shirt",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/35_1.jpg",
+      "category": "Shirts",
+      "price": 1800,
+      "discountPrice": 1450,
+      "rating": 4.6,
+      "shortDesc": "Comfortable cotton shirt for daily wear.",
+      "fullDesc": "This men's cotton casual shirt is made with soft, breathable fabric, perfect for everyday use. Stylish, lightweight, and easy to maintain.",
+      "specifications": {
+        "material": "100% Cotton",
+        "fit": "Regular",
+        "sleeve": "Full",
+        "origin": "Bangladesh"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Women's Summer Floral",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/34_1.jpg",
+      "category": "Clothes",
+      "price": 2200,
+      "discountPrice": 1750,
+      "rating": 4.8,
+      "shortDesc": "Lightweight floral dress for summer.",
+      "fullDesc": "Perfect for warm weather, this floral dress is stylish and breathable. Great for casual outings or parties.",
+      "specifications": {
+        "material": "Rayon",
+        "fit": "Slim",
+        "length": "Knee",
+        "origin": "India"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Men's Denim Shorts",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/45_1.jpg",
+      "category": "Shorts",
+      "price": 1300,
+      "discountPrice": 999,
+      "rating": 4.5,
+      "shortDesc": "Durable denim shorts for men.",
+      "fullDesc": "Classic denim shorts with modern fit. Great for casual days, travel, or sports wear.",
+      "specifications": {
+        "material": "Denim",
+        "fit": "Slim",
+        "wash": "Mid Blue",
+        "origin": "Bangladesh"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Leather Jacket for Men",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/48_1.jpg",
+      "category": "Jackets",
+      "price": 5500,
+      "discountPrice": 4799,
+      "rating": 4.9,
+      "shortDesc": "Premium leather jacket for winter.",
+      "fullDesc": "A stylish and durable leather jacket with zipper pockets and soft inner lining. Perfect for cold weather.",
+      "specifications": {
+        "material": "Genuine Leather",
+        "lining": "Polyester",
+        "fit": "Slim",
+        "origin": "Italy"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Stylish Round Sunglass",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/32_1.jpg",
+      "category": "Sunglass",
+      "price": 1200,
+      "discountPrice": 950,
+      "rating": 4.4,
+      "shortDesc": "Trendy UV-protected round.",
+      "fullDesc": "These round sunglasses offer 100% UV protection with a stylish metallic frame. Ideal for both men and women.",
+      "specifications": {
+        "lensType": "UV400",
+        "frameMaterial": "Metal",
+        "lensColor": "Black",
+        "origin": "China"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Classic Fedora Hat",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/39_1.jpg",
+      "category": "Hat",
+      "price": 950,
+      "discountPrice": 780,
+      "rating": 4.2,
+      "shortDesc": "Classic fedora hat for all seasons.",
+      "fullDesc": "Elegant fedora hat made of premium wool. Adds a stylish touch to your outfit.",
+      "specifications": {
+        "material": "Wool",
+        "color": "Brown",
+        "size": "Free Size",
+        "origin": "Turkey"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Luxury Men's Perfume",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/50_1.jpg",
+      "category": "Perfium",
+      "price": 3200,
+      "discountPrice": 2599,
+      "rating": 4.3,
+      "shortDesc": "Long-lasting masculine fragrance.",
+      "fullDesc": "A bold and luxurious fragrance designed for men who want to stand out with confidence and elegance.",
+      "specifications": {
+        "type": "Eau de Parfum",
+        "volume": "100ml",
+        "scent": "Woody Oriental",
+        "origin": "France"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Women's Elegant Handbag",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/48_1.jpg",
+      "category": "Accessories",
+      "price": 2600,
+      "discountPrice": 1999,
+      "rating": 4.5,
+      "shortDesc": "Elegant handbag for daily and party use.",
+      "fullDesc": "Crafted from premium PU leather, this handbag combines elegance and functionality with spacious compartments.",
+      "specifications": {
+        "material": "PU Leather",
+        "color": "Beige",
+        "closure": "Zipper",
+        "origin": "Vietnam"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Sports Running Shoes",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/41_1.jpg",
+      "category": "Footwear",
+      "price": 2900,
+      "discountPrice": 2350,
+      "rating": 4.6,
+      "shortDesc": "Lightweight and durable running shoes.",
+      "fullDesc": "Engineered for performance, these shoes provide comfort and grip for all terrains. Suitable for men and women.",
+      "specifications": {
+        "material": "Mesh & Rubber",
+        "closure": "Lace-up",
+        "sole": "Anti-slip",
+        "origin": "Vietnam"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Casual Cotton T-Shirt",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/37_1.jpg",
+      "category": "Clothes",
+      "price": 950,
+      "discountPrice": 699,
+      "rating": 4.3,
+      "shortDesc": "Soft and breathable cotton T-shirt.",
+      "fullDesc": "A lightweight, everyday t-shirt made from premium cotton for ultimate comfort.",
+      "specifications": {
+        "material": "Cotton",
+        "fit": "Regular",
+        "neck": "Round",
+        "origin": "Bangladesh"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Women's Denim Jacket",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/38_1.jpg",
+      "category": "Jackets",
+      "price": 3400,
+      "discountPrice": 2899,
+      "rating": 4.8,
+      "shortDesc": "Trendy denim jacket for all occasions.",
+      "fullDesc": "Stylish and durable denim jacket with front pockets. Ideal for layering in cool weather.",
+      "specifications": {
+        "material": "Denim",
+        "fit": "Slim",
+        "buttons": "Metallic",
+        "origin": "Bangladesh"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Silk Party Scarf",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/48_1.jpg",
+      "category": "Accessories",
+      "price": 750,
+      "discountPrice": 590,
+      "rating": 4.1,
+      "shortDesc": "Soft and shiny silk scarf for parties.",
+      "fullDesc": "Made with smooth silk fabric, this scarf adds elegance to your outfit and can be worn year-round.",
+      "specifications": {
+        "material": "Silk",
+        "color": "Red",
+        "length": "1.5m",
+        "origin": "India"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Cotton Baseball Cap",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/50_1.jpg",
+      "category": "Hat",
+      "price": 650,
+      "discountPrice": 499,
+      "rating": 4.2,
+      "shortDesc": "Comfortable cotton baseball cap.",
+      "fullDesc": "Soft cotton cap with adjustable strap. Protects from sun and adds casual style.",
+      "specifications": {
+        "material": "Cotton",
+        "color": "Navy Blue",
+        "adjustable": "Yes",
+        "origin": "China"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Classic Aviator Sunglass",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/42_2.jpg",
+      "category": "Sunglass",
+      "price": 1500,
+      "discountPrice": 1190,
+      "rating": 4.5,
+      "shortDesc": "Metallic aviator sunglasses with UV400 lens.",
+      "fullDesc": "Classic aviator sunglasses ideal for travel and outdoor wear. Anti-glare lens for clear vision.",
+      "specifications": {
+        "lensType": "UV400",
+        "frameMaterial": "Metal",
+        "lensColor": "Brown",
+        "origin": "China"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Men's Sports Shorts",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/54_1.jpg",
+      "category": "Shorts",
+      "price": 1100,
+      "discountPrice": 850,
+      "rating": 4.4,
+      "shortDesc": "Breathable shorts for sports and workouts.",
+      "fullDesc": "Lightweight polyester shorts ideal for running, gym, and outdoor activities.",
+      "specifications": {
+        "material": "Polyester",
+        "fit": "Regular",
+        "pockets": "2 Side Pockets",
+        "origin": "Bangladesh"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Unisex Hooded Jacket",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/52_1.jpg",
+      "category": "Jackets",
+      "price": 2700,
+      "discountPrice": 2199,
+      "rating": 4.7,
+      "shortDesc": "Warm hooded jacket for men and women.",
+      "fullDesc": "This unisex jacket provides warmth, comfort, and protection during cold days. Made from soft fleece lining.",
+      "specifications": {
+        "material": "Polyester Blend",
+        "fit": "Loose",
+        "pockets": "2 Front Pockets",
+        "origin": "Bangladesh"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Men's Office Perfume",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/44_1.jpg",
+      "category": "Perfium",
+      "price": 2800,
+      "discountPrice": 2390,
+      "rating": 4.1,
+      "shortDesc": "Mild fresh perfume for office wear.",
+      "fullDesc": "A light and refreshing scent for professional men. Keeps you confident all day long.",
+      "specifications": {
+        "type": "Eau de Toilette",
+        "volume": "100ml",
+        "scent": "Citrus Fresh",
+        "origin": "France"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Cotton Polo T-Shirt",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/48_1.jpg",
+      "category": "Clothes",
+      "price": 1200,
+      "discountPrice": 950,
+      "rating": 4.5,
+      "shortDesc": "Premium polo T-shirt with soft cotton.",
+      "fullDesc": "Classic polo with collar design and side vents. Soft and breathable fabric for comfort.",
+      "specifications": {
+        "material": "Cotton",
+        "fit": "Regular",
+        "neck": "Collar",
+        "origin": "Bangladesh"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Casual Men's Hat",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/44_1.jpg",
+      "category": "Hat",
+      "price": 800,
+      "discountPrice": 650,
+      "rating": 4.1,
+      "shortDesc": "Casual daily wear hat for men.",
+      "fullDesc": "A lightweight, breathable hat for outdoor activities and travel. Provides sun protection.",
+      "specifications": {
+        "material": "Canvas",
+        "color": "Khaki",
+        "size": "Free Size",
+        "origin": "China"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Women's Stylish Perfume",
+      "img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/50_1.jpg",
+      "category": "Perfium",
+      "price": 3100,
+      "discountPrice": 2590,
+      "rating": 4.9,
+      "shortDesc": "Elegant and floral fragrance for women.",
+      "fullDesc": "A captivating floral perfume that lasts all day long. Perfect for parties and special events.",
+      "specifications": {
+        "type": "Eau de Parfum",
+        "volume": "100ml",
+        "scent": "Floral Rose",
+        "origin": "France"
+      }
+    }
+  ],
+  "blogs": [
+    {
+      "id": 101,
+      "title": "Best Budget Power Banks 2025 — What to Look For",
+      "slug": "best-budget-powerbank-2025",
+      "author": "Imran Parvez",
+      "date": "2025-09-12",
+      "category_id": 1,
+      "tags": ["powerbank", "electronics", "buying-guide"],
+      "cover_img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/blog/9.jpg",
+      "excerpt": "How to choose a good-performing power bank at a low price — capacity, ports, safety, and real-world tests.",
+      "content": "When buying a power bank, check battery cell quality, safety certifications, capacity (mAh), and output ports. We’ve tested 10 popular models — click to read the full review.",
+      "reading_time_min": 6,
+      "related_products": [201, 202, 203],
+      "comments_count": 12,
+      "featured": true,
+      "seo": {
+        "metaTitle": "Best Budget Power Banks 2025 | Fearless Fighter",
+        "metaDescription": "Looking for a good power bank on a budget? Check out charts, test results, and top picks."
+      }
+    },
+    {
+      "id": 102,
+      "title": "How to Choose a Cricket Bat: A Beginner’s Guide",
+      "slug": "how-to-choose-cricket-bat",
+      "author": "Guest Author - Rahim",
+      "date": "2025-08-01",
+      "category_id": 4,
+      "tags": ["cricket", "sports", "equipment"],
+      "cover_img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/blog/10.jpg",
+      "excerpt": "Budget, willow type, and bat style — an easy guide for beginners.",
+      "content": "When choosing a cricket bat, consider weight, blade profile, handle type, and balance. This article explains the pros and cons of different types of bats.",
+      "reading_time_min": 8,
+      "related_products": [301, 302],
+      "comments_count": 34,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Cricket Bat Selection Guide | Fearless Fighter",
+        "metaDescription": "A step-by-step guide for beginners — how to choose the right cricket bat."
+      }
+    },
+    {
+      "id": 103,
+      "title": "Best Cotton T-Shirts for Summer — Stay Cool & Comfortable",
+      "slug": "best-cotton-tshirts-summer",
+      "author": "Imran Parvez",
+      "date": "2025-05-20",
+      "category_id": 2,
+      "tags": ["fashion", "tshirt", "summer"],
+      "cover_img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/blog/12.jpg",
+      "excerpt": "Tips for choosing light, breathable cotton T-shirts and our top 5 picks.",
+      "content": "In hot weather, breathable cotton, good stitching quality, and perfect sizing are key. This article covers 5 local and imported T-shirt models.",
+      "reading_time_min": 5,
+      "related_products": [401, 402, 403],
+      "comments_count": 8,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Cool & Comfortable Cotton T-Shirts | Fearless Fighter",
+        "metaDescription": "Tips and top models for choosing cotton T-shirts for summer."
+      }
+    },
+    {
+      "id": 104,
+      "title": "Small Kitchen Gadgets That Make Life Easier",
+      "slug": "small-kitchen-gadgets",
+      "author": "Sadia",
+      "date": "2025-06-10",
+      "category_id": 3,
+      "tags": ["kitchen", "home", "gadgets"],
+      "cover_img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/blog/13.jpg",
+      "excerpt": "A review of handy kitchen gadgets that make daily cooking faster and easier.",
+      "content": "We tested 7 gadgets for practicality, build quality, and value for money — see our full comparison and usage tips.",
+      "reading_time_min": 7,
+      "related_products": [501, 502],
+      "comments_count": 3,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Smart Kitchen Gadgets | Fearless Fighter",
+        "metaDescription": "Reviews and buying tips for everyday kitchen gadgets."
+      }
+    },
+    {
+      "id": 105,
+      "title": "Smartwatch Buying Guide 2025 — What You Should Know",
+      "slug": "smartwatch-buying-guide",
+      "author": "Imran Parvez",
+      "date": "2025-07-03",
+      "category_id": 1,
+      "tags": ["smartwatch", "wearable", "electronics"],
+      "cover_img": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/blog/10.jpg",
+      "excerpt": "Features, battery life, and slim design — which smartwatch suits you best?",
+      "content": "Choose a smartwatch by checking notifications, heart-rate sensor, GPS, and battery life. Here are the top models by budget.",
+      "reading_time_min": 6,
+      "related_products": [204, 205],
+      "comments_count": 19,
+      "featured": true,
+      "seo": {
+        "metaTitle": "Smartwatch Buying Guide 2025 | Fearless Fighter",
+        "metaDescription": "Find the most durable smartwatch within your budget — quick review."
+      }
+    },
+    {
+      "id": 106,
+      "title": "Morning Beauty Routine — Keep Your Skin Fresh & Healthy",
+      "slug": "morning-beauty-routine",
+      "author": "Nadia",
+      "date": "2025-02-28",
+      "category_id": 5,
+      "tags": ["beauty", "skincare", "routine"],
+      "cover_img": "/images/blogs/beauty-routine.jpg",
+      "excerpt": "Simple and effective ways to keep your skin hydrated and fresh every morning.",
+      "content": "Proper cleansing, moisturizer, and sunscreen can keep your skin glowing all day. Follow this easy step-by-step skincare routine.",
+      "reading_time_min": 4,
+      "related_products": [601, 602],
+      "comments_count": 6,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Morning Skincare Routine | Fearless Fighter",
+        "metaDescription": "Easy steps for glowing and fresh skin every morning."
+      }
+    },
+    {
+      "id": 107,
+      "title": "Start an Online Business by Buying a Domain — Quick Guide",
+      "slug": "start-online-business-domain",
+      "author": "Imran Parvez",
+      "date": "2025-03-15",
+      "category_id": 6,
+      "tags": ["digital", "domain", "business"],
+      "cover_img": "/images/blogs/domain-business.jpg",
+      "excerpt": "Choosing the right domain and hosting makes starting an online business easier.",
+      "content": "Learn how to pick a memorable, SEO-friendly domain name step by step — including branding tips and hosting advice.",
+      "reading_time_min": 6,
+      "related_products": [],
+      "comments_count": 2,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Start Online Business with a Domain | Fearless Fighter",
+        "metaDescription": "How to choose and set up the right domain name quickly."
+      }
+    },
+    {
+      "id": 108,
+      "title": "Perfect Eid Gift Ideas for Men — Budget & Luxury Options",
+      "slug": "eid-gift-ideas-men",
+      "author": "Sami",
+      "date": "2025-04-25",
+      "category_id": 7,
+      "tags": ["seasonal", "gift", "eid"],
+      "cover_img": "/images/blogs/eid-gifts.jpg",
+      "excerpt": "Budget-friendly and luxury Eid gift ideas for men — top selections.",
+      "content": "Top 10 items: T-shirts, perfumes, watches, cricket gear, and light jackets — with pricing and buying tips.",
+      "reading_time_min": 5,
+      "related_products": [401, 205, 301],
+      "comments_count": 11,
+      "featured": true,
+      "seo": {
+        "metaTitle": "Eid Gift Ideas for Men | Fearless Fighter",
+        "metaDescription": "Eid gift suggestions combining budget and luxury."
+      }
+    },
+    {
+      "id": 109,
+      "title": "Cricket Gloves: Which Material is the Most Durable?",
+      "slug": "cricket-gloves-durability",
+      "author": "Rahim",
+      "date": "2025-01-18",
+      "category_id": 4,
+      "tags": ["cricket", "gloves", "sports-gear"],
+      "cover_img": "/images/blogs/cricket-gloves.jpg",
+      "excerpt": "The durability of cricket gloves depends on materials and construction.",
+      "content": "We analyze leather, seams, and cotton lining — which combination gives the best comfort and strength.",
+      "reading_time_min": 6,
+      "related_products": [302, 303],
+      "comments_count": 4,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Cricket Gloves Durability | Fearless Fighter",
+        "metaDescription": "Detailed analysis of materials and stitching quality."
+      }
+    },
+    {
+      "id": 110,
+      "title": "Bossstander Desk Lamp — Is It Safe for Your Eyes?",
+      "slug": "desk-lamp-eye-safety",
+      "author": "Nadia",
+      "date": "2025-09-02",
+      "category_id": 3,
+      "tags": ["home", "lamp", "health"],
+      "cover_img": "/images/blogs/desk-lamp.jpg",
+      "excerpt": "Check light temperature and flicker level before buying a desk lamp.",
+      "content": "Learn how LED lamp color temperature and flicker-free drivers protect your eyes from strain.",
+      "reading_time_min": 5,
+      "related_products": [504],
+      "comments_count": 0,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Desk Lamp & Eye Safety | Fearless Fighter",
+        "metaDescription": "Why light temperature and flicker levels matter for eye protection."
+      }
+    },
+    {
+      "id": 111,
+      "title": "Summer Street Fashion — Look Stylish on a Budget",
+      "slug": "summer-street-fashion",
+      "author": "Sami",
+      "date": "2025-06-30",
+      "category_id": 2,
+      "tags": ["fashion", "summer", "streetstyle"],
+      "cover_img": "/images/blogs/street-fashion.jpg",
+      "excerpt": "Light and trendy looks for summer — stay stylish without spending much.",
+      "content": "Learn how to use texture, layering, and accessories to stay stylish on a budget.",
+      "reading_time_min": 4,
+      "related_products": [402, 403],
+      "comments_count": 7,
+      "featured": false,
+      "seo": {
+        "metaTitle": "Summer Street Fashion Tips | Fearless Fighter",
+        "metaDescription": "Easy ways to look stylish in summer without spending too much."
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+.bg-banner{
+   position: relative;
+  background-image: url('https://demos.flatsome.com/wp-content/uploads/2016/07/photo-1426523038054-a260f3ef5bc9-1000x375.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  
+}
+.overly{
+  position: absolute;
+  inset: 0;               /* top:0; right:0; bottom:0; left:0 */
+  background: rgba(0,0,0,0.55); /* dark overlay; change color/alpha */
+  z-index: 1;
+  pointer-events: none; 
+}
+.overly1{
+  position: absolute;
+  inset: 0;               /* top:0; right:0; bottom:0; left:0 */
+  background: rgba(0,0,0,0.05); /* dark overlay; change color/alpha */
+  z-index: 1;
+  pointer-events: none; 
+}
+.bg-banner-offer{
+     position: relative;
+  background-image: url('https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/banner/12.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
