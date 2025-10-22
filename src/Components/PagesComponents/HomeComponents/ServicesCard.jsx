@@ -4,7 +4,7 @@ import { FaCarAlt, FaCaravan } from 'react-icons/fa';
 const ServicesCard = ({title,subtitle,icon}) => {
     return (
         <div>
-            <div className='h-50 border border-gray-300 px-8 py-4 flex flex-col justify-center items-center space-y-3'>
+            <div className='h-50 rounded-sm border border-gray-300 px-8 py-4 flex flex-col justify-center items-center space-y-3'>
                 <div className='text-5xl text-center text-[#5CAF90]'>
                     {icon}
                 </div>

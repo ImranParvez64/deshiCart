@@ -20,7 +20,7 @@ const MainHeader = () => {
                 <div className="flex gap-6">
                     <Link className="flex justify-center items-center gap-2" href='/login'>Log in <MdLogin /></Link>
                     <Link className="flex justify-center items-center gap-2" href='/register'>Register <MdManageAccounts className="text-xl" /></Link>
-                    <Link className="flex justify-center items-center gap-2" href='/register'>Cart <MdAddShoppingCart /></Link>
+                    <Link className="flex justify-center items-center gap-2" href='/cart'>Cart <MdAddShoppingCart /></Link>
 
                 </div>
             </div>

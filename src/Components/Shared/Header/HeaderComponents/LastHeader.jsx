@@ -5,7 +5,7 @@ import { IoMdSearch } from "react-icons/io";
 const LastHeader = () => {
     return (
         <div>
-            <div className="container mx-auto py-2 flex justify-between items-center">
+            <div className="container mx-auto py-3 flex justify-between items-center mb-2 ">
                 <div>
                     <Btn  btnPrimary="All categories"></Btn>
                 </div>

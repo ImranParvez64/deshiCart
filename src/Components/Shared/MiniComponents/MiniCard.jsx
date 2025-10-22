@@ -4,7 +4,7 @@ const MiniCard = ({ product }) => {
 
 
   return (
-    <div className="border border-gray-300">
+    <div className="border border-gray-300 rounded-sm">
       <div className="flex p-5  items-center ">
         <div>
           <img src={product.img} className="w-20" alt="" />

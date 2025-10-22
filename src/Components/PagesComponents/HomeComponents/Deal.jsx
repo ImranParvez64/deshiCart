@@ -7,7 +7,7 @@ const Deal = async() => {
     const productsData = await res.json();
     
     return (
-        <div className=''>
+        <div className='mb-15'>
             <CardsTitle title="Popular" titleColor="Products" shortDisc="Don't wait. The time will never be just right."></CardsTitle>
             <div className='grid grid-cols-5  gap-4'>
                 {

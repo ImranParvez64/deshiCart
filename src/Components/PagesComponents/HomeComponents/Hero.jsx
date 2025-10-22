@@ -3,8 +3,8 @@ import "./CSS/others.css";
 
 const Hero = () => {
     return (
-        <div className=''>
-            <div className='bg-banner container mx-auto text-white'>
+        <div className='mb-10'>
+            <div className='bg-banner rounded-sm container mx-auto text-white'>
                 <div className="overly">
                 </div>
                 <div className='flex flex-col justify-center items-center z-10 space-y-3'>

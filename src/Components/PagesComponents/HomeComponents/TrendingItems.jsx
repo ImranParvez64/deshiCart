@@ -13,7 +13,7 @@ const TrendingItems = async() => {
             productsData
             .slice(0,4)
             .map(product=>(
-                <MiniCard product={product}></MiniCard>
+                <MiniCard key={product.id} product={product}></MiniCard>
             ))
         }
         </div>

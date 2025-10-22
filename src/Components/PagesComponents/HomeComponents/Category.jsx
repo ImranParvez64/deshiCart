@@ -7,7 +7,7 @@ const Category = async() => {
     console.log(categoryData);
     
     return (
-        <div className='flex justify-between items-center mx-auto container py-8 gap-4'>
+        <div className='mb-10 flex justify-between items-center mx-auto container  gap-4'>
             {
                 categoryData.map(categoryCard => (
                     <CategoryCard key={categoryCard.id} categoryCard={categoryCard}></CategoryCard>

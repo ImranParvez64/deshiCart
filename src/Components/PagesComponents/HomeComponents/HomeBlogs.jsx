@@ -12,7 +12,7 @@ const HomeBlogs = async() => {
             <div className='grid grid-cols-5 gap-4'>
                 {
                     blogs.slice(0,5).map(blog=>(
-                        <BlogsCard blog={blog}></BlogsCard>
+                        <BlogsCard key={blog.id} blog={blog}></BlogsCard>
                     ))
                 }
             </div>

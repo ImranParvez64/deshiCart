@@ -28,7 +28,7 @@ const ProductsCard = ({ product }) => {
 
   return (
     <div
-      className="border border-gray-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 relative"
+      className="border border-gray-100 rounded-sm overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 relative"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -74,7 +74,7 @@ const ProductsCard = ({ product }) => {
       {/* ---------- Product Info ---------- */}
       <div className="p-5 space-y-3 text-start">
         <p className="text-gray-400 font-medium">{product.category}</p>
-        <h1 className="text-xl text-gray-700 font-semibold cursor-pointer">{product.title}</h1>
+        <h1 className="text-xl text-gray-600 font-semibold cursor-pointer">{product.title}</h1>
 
         {/* ⭐ Rating */}
         <div className="flex items-center  gap-1">
@@ -84,7 +84,7 @@ const ProductsCard = ({ product }) => {
 
         {/* 💰 Price */}
         <div className="flex gap-2 items-center ">
-          <p className="text-lg font-semibold text-gray-800">${product.discountPrice}</p>
+          <p className="text-lg font-semibold text-gray-500">${product.discountPrice}</p>
           <p className="line-through text-red-600">${product.price}</p>
         </div>
       </div>

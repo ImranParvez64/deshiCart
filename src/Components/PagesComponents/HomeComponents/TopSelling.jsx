@@ -13,7 +13,7 @@ const TopSelling = async() => {
             productsData
             .slice(5,9)
             .map(product=>(
-                <MiniCard product={product}></MiniCard>
+                <MiniCard key={product.id} product={product}></MiniCard>
             ))
         }
         </div>
