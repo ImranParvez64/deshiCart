@@ -42,9 +42,8 @@ const ProductsCard = ({ product }) => {
 
         {/* ---------- Hover Icons ---------- */}
         <div
-          className={`absolute top-3 right-3 flex flex-col gap-2 transition-all duration-300 ${
-            hovered ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-          }`}
+          className={`absolute top-3 right-3 flex flex-col gap-2 transition-all duration-300 ${hovered ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+            }`}
         >
           <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
             <FaHeart className="text-gray-600 hover:text-red-500" />
@@ -60,11 +59,10 @@ const ProductsCard = ({ product }) => {
         {/* ---------- SALE / NEW Badge (Optional) ---------- */}
         {product.badge && (
           <span
-            className={`absolute top-3 left-3 text-xs font-semibold px-2 py-1 rounded ${
-              product.badge === "SALE"
+            className={`absolute top-3 left-3 text-xs font-semibold px-2 py-1 rounded ${product.badge === "SALE"
                 ? "bg-red-500 text-white"
                 : "bg-green-500 text-white"
-            }`}
+              }`}
           >
             {product.badge}
           </span>

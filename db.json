@@ -41,6 +41,12 @@
             "name": "Shirts",
             "img": "https://i.ibb.co.com/KzXyKS8R/c-1.png",
             "totalQuantity": 45
+        },
+        {
+            "id": 8,
+            "name": "Accessories",
+            "img": "https://i.ibb.co.com/KzXyKS8R/c-1.png",
+            "totalQuantity": 60
         }
     ],
   "products": [
