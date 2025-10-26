@@ -6,7 +6,7 @@ const Category = async() => {
     const categoryData = await res.json();
     
     return (
-        <div className='mb-10 flex justify-between items-center mx-auto container  gap-4'>
+        <div className='mb-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 mx-auto container p-2  gap-4'>
             {
                 categoryData.map(categoryCard => (
                     <CategoryCard key={categoryCard.id} categoryCard={categoryCard}></CategoryCard>
