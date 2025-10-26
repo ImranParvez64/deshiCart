@@ -29,7 +29,7 @@ const LastHeader = () => {
   // ✅ Fetch Category
   useEffect(() => {
     const fetchCategory = async () => {
-      const res = await fetch("http://localhost:4000/category");
+      const res = await fetch("https://68fdd9b07c700772bb121465.mockapi.io/category");
       const data = await res.json();
       setCategories(data);
     };

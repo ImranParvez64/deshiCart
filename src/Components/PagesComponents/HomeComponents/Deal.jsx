@@ -3,7 +3,7 @@ import React from 'react';
 import ProductsCard from '../../Shared/MiniComponents/ProductCard';
 
 const Deal = async () => {
-    const res = await fetch("http://localhost:4000/products", { cache: "no-store" });
+    const res = await fetch("https://68fdd9b07c700772bb121465.mockapi.io/products", { cache: "no-store" });
     const productsData = await res.json();
 
     return (

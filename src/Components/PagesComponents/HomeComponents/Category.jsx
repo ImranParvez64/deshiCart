@@ -2,7 +2,7 @@ import React from 'react';
 import CategoryCard from './CategoryCard';
 
 const Category = async() => {
-    const res = await fetch("http://localhost:4000/category")
+    const res = await fetch("https://68fdd9b07c700772bb121465.mockapi.io/category")
     const categoryData = await res.json();
     
     return (

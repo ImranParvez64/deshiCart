@@ -3,7 +3,7 @@ import MiniCard from '@/Components/Shared/MiniComponents/MiniCard';
 import React from 'react';
 
 const TrendingItems = async() => {
-    const res = await fetch("http://localhost:4000/products")
+    const res = await fetch("https://68fdd9b07c700772bb121465.mockapi.io/products")
     const productsData = await res.json();
     return (
         <div>

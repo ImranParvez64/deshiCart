@@ -3,7 +3,7 @@ import React from 'react';
 import BlogsCard from './BlogsCard';
 
 const HomeBlogs = async() => {
-    const res = await fetch("http://localhost:4000/blogs")
+    const res = await fetch("https://68fddd487c700772bb12204d.mockapi.io/blogs")
     const blogs = await res.json();
 
     return (
