@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaStar, FaRegStar, FaStarHalfAlt, FaHeart, FaSearch, FaShoppingCart } from "react-icons/fa";
 
@@ -72,7 +73,9 @@ const ProductsCard = ({ product }) => {
       {/* ---------- Product Info ---------- */}
       <div className="p-5 space-y-3 text-start">
         <p className="text-gray-400 font-medium">{product.category}</p>
+      <Link href={`/products/${product.id}`}>
         <h1 className="text-xl text-gray-600 font-semibold cursor-pointer">{product.title}</h1>
+      </Link>
 
         {/* ⭐ Rating */}
         <div className="flex items-center  gap-1">

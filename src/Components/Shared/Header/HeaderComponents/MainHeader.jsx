@@ -9,10 +9,9 @@ const MainHeader = () => {
     const menuItems = (
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 lg:items-center font-semibold text-gray-600">
             <Link href='/'>Home</Link>
-            <Link href='/categories'>Categories</Link>
             <Link href='/products'>Products</Link>
             <Link href='/blog'>Blog</Link>
-            <Link href='/others'>Others</Link>
+            <Link href='/about'>About</Link>
             <Link href='/contact'>Contact</Link>
         </div>
     );

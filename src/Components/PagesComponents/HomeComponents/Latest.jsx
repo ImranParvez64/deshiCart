@@ -2,7 +2,7 @@ import React from "react";
 
 const Latest = () => {
   return (
-    <div className="my-10">
+    <div className="my-10 sm:p-2">
       <div className="
         relative 
         rounded-sm 

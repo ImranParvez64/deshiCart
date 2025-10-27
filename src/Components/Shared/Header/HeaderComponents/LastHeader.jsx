@@ -118,7 +118,7 @@ const LastHeader = () => {
         <div className="relative w-full md:w-auto" ref={divisionRef}>
           <button
             onClick={() => setDivisionOpen(!divisionOpen)}
-            className="w-full md:w-52 lg:w-60"
+            className="w-full "
           >
             <Btn btnPrimary={selectedDivision} />
           </button>
